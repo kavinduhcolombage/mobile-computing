@@ -42,6 +42,7 @@ if (mysqli_num_rows($result) > 0) {
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Height (cm)</th>
+                <th>Phone Number</th>
             </tr>";
     
     while ($row = mysqli_fetch_assoc($result)) {
@@ -50,6 +51,7 @@ if (mysqli_num_rows($result) > 0) {
                 <td>" . $row["first_name"] . "</td>
                 <td>" . $row["last_name"] . "</td>
                 <td>" . $row["height"] . "</td>
+                <td>" . $row["phone_number"] . "</td>
               </tr>";
     }
     
