@@ -23,7 +23,7 @@
 </head>
 <body>
 
-<h2>All Student Records</h2>
+<h2>All Student Record</h2>
 
 <?php
 $connect = mysqli_connect("localhost", "root", "", "studentdb");
