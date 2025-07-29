@@ -26,7 +26,7 @@
 <h2>All Student Record</h2>
 
 <?php
-$connect = mysqli_connect("localhost", "root", "", "studentdb");
+$connect = mysqli_connect("localhost", "root", "Dkhc@2001", "studentdb");
 
 if (!$connect) {
     die("Connection failed: " . mysqli_connect_error());
